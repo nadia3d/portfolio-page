@@ -58,9 +58,9 @@ p {
   border: 3px solid #112989;
   /* border-radius: 20px; */
   /* padding: 10px 25px; */
-  position:static;
+
   border-radius: 100%;
-  padding: 1.5%;
+  padding: 20px;
   text-align: left;
   text-decoration: none;
   float: left;
