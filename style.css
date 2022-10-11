@@ -25,19 +25,20 @@ p {
 
 
 .navbar {
- 
+
   overflow: hidden;
 
 }
 
 /*Navigation bar links*/
-.cv{
+.cv {
   display: flex;
   justify-content: flex-end;
 }
+
 .navbar a {
 
-  border: 3px solid #4CAF50;
+  border: 3px solid #4b29a1;
   border-radius: 20px;
   padding: 10px 25px;
   text-align: left;
@@ -52,10 +53,14 @@ p {
 
 .cv a {
 
- 
-  border: 3px solid #4CAF50;
-  border-radius: 20px;
-  padding: 10px 25px;
+
+  /* border: 3px solid #4CAF50; */
+  border: 3px solid #112989;
+  /* border-radius: 20px; */
+  /* padding: 10px 25px; */
+  position:static;
+  border-radius: 100%;
+  padding: 1.5%;
   text-align: left;
   text-decoration: none;
   float: left;
