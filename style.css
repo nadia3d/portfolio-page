@@ -2,80 +2,87 @@
     background-color: #9595c3;
     margin: 0px;
   } */
-  body,
-  html {
-      background-color: #9595c3;
-      height: 100%;
-      margin: 0px;
-  }
-  
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-      font-family: 'Roboto Mono', sans-serif;
-      font-weight: 500;
-      color: #5354f4;
-      text-shadow: 1px 1px 1px rgb(40, 44, 98);
-  }
-  
-  
-  .navbar {
-      background-color: #9595c3;
-      overflow: hidden;
-  }
-  
-  /*Navigation bar links*/
-  .navbar a {
-      display: block;
-      padding: 20px 25px;
-      text-align: left;
-      text-decoration: none;
-      float: left;
-      color: white;
-  
-      
-  }
-  
-  /*Hovering over navigation bar*/
-  .navbar a:hover {
-      background-color: #faf800;
-      color: black;
-  }
-  
-  /*Introduction*/
-  .summary {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  
-      text-align: center;
-      letter-spacing: 4px;
-  }
-  
-  .intro {
-      height: 100%;
-      background-image: url('../images/Noun_Search_176556.svg.png');
-      background-size:cover
-    }
-  
-    /*about section*/
-  
-  .about h2,
-  p {
-    text-align: left;
-    padding-left: 25%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
-  
+body,
+html {
+  background-color: #9595c3;
+  height: 100%;
+  margin: 0px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 500;
+  color: #5354f4;
+  /* text-shadow: 1px 1px 1px rgb(40, 44, 98); */
+}
+
+
+.navbar {
+  background-color: #9595c3;
+  overflow: hidden;
+
+}
+
+/*Navigation bar links*/
+.navbar a {
+
+  border: 3px solid #4CAF50;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+  color: white;
+  margin: 10px;
+
+
+}
+
+
+
+
+
+/*Hovering over navigation bar*/
+.navbar a:hover {
+  background-color: #faf800;
+  color: black;
+}
+
+
+
+/*Introduction*/
+.summary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.intro {
+  height: 100%;
+}
+
+/*about section*/
+
+.about h2,
+p {
+  text-align: left;
+  padding-left: 25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/*   
   .about p {
     font-size: 20px;
-  }
-  
-    
+  } */
