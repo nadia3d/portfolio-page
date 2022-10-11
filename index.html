@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
     <title>Hello Friend!</title>
 </head>
 
@@ -18,9 +17,14 @@
         <nav class="navbar">
             <a href="#" class="button">Home</a>
             <a href="#about" class="button">About</a>
-            <a href="#contact" class="button">Contact</a>
-            <a href="#cv" class="button">CV</a>
+            <span><a href="#contact" class="button">Contact</a>
+                <nav class="cv">
+                    <a href="#cv" class="button">CV</a>
+                </nav>
+            </span>
+
         </nav>
+
         <!-- Introduction -->
         <div class="summary">
             <h1 class="name">Hello, my name is Nadia</h1>
@@ -29,12 +33,12 @@
 
         <!-- </div> -->
     </header>
-<!-- About -->
-<div class="about" id="about">
-    <h2>About Me</h2>
-    <p>Some things I like are pancakes . I am learning about html and css.</p>
-  </div>
-  
+    <!-- About -->
+    <div class="about" id="about">
+        <h2>About Me</h2>
+        <p>Some things I like are pancakes . I am learning about html and css.</p>
+    </div>
+
 </body>
 
 </html>

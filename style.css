@@ -25,14 +25,34 @@ p {
 
 
 .navbar {
-  background-color: #9595c3;
+ 
   overflow: hidden;
 
 }
 
 /*Navigation bar links*/
+.cv{
+  display: flex;
+  justify-content: flex-end;
+}
 .navbar a {
 
+  border: 3px solid #4CAF50;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+  color: white;
+  margin: 10px;
+
+
+}
+
+
+.cv a {
+
+ 
   border: 3px solid #4CAF50;
   border-radius: 20px;
   padding: 10px 25px;
@@ -54,6 +74,12 @@ p {
   background-color: #faf800;
   color: black;
 }
+
+.cv a:hover {
+  background-color: #00ccfa;
+  color: black;
+}
+
 
 
 
